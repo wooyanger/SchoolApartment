@@ -14,7 +14,7 @@ class SchoolApatment:
 
     def __init__(self):
         self.session = Session()
-        self.m = Mongo('120.25.95.236', 27017, 'schoolapartment')
+        self.m = Mongo('数据库连接', 27017, '数据库名称')
 
     # 大学信息
     def university(self):
